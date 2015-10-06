@@ -1,0 +1,150 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="6"
+    android:background="@color/navajowhite"
+    >
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Nota Quices:"
+    android:textSize="25dp"
+    android:layout_marginLeft="25dp"
+    android:layout_gravity="center"
+    />
+
+        <EditText
+            android:id="@+id/Quices"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="[15%]"
+            android:textSize="25dp"
+            android:layout_marginLeft="50dp"
+            android:inputType="numberDecimal"
+            android:layout_gravity="center"
+            android:maxLength="5"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:background="@color/navajowhite"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nota Expo:"
+            android:textSize="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:id="@+id/Expo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="[10%]"
+            android:textSize="25dp"
+            android:layout_marginLeft="70dp"
+            android:layout_gravity="center"
+            android:inputType="numberDecimal"
+            android:maxLength="5"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:background="@color/navajowhite"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nota Lab:"
+            android:textSize="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:id="@+id/Lab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="[40%]"
+            android:textSize="25dp"
+            android:layout_marginLeft="85dp"
+            android:inputType="numberDecimal"
+            android:layout_gravity="center"
+            android:maxLength="5"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:background="@color/navajowhite"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nota Proy. Final:"
+            android:textSize="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:id="@+id/Proy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="[35%]"
+            android:textSize="25dp"
+            android:layout_marginLeft="10dp"
+            android:inputType="numberDecimal"
+            android:layout_gravity="center"
+            android:maxLength="5"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:background="@color/navajowhite"
+        >
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/boton"
+    android:text="Calcular"
+    android:textSize="25dp"
+    android:background="@color/lightgray"
+    android:layout_marginLeft="100dp"
+    android:layout_gravity="center"
+    />
+
+
+    </LinearLayout>
+  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:background="@color/navajowhite"
+        >
+
+      <TextView
+          android:id="@+id/resultado"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:hint=" "
+          android:textSize="35dp"
+          android:layout_marginLeft="100dp"/>
+
+  </LinearLayout>
+
+
+
+
+</LinearLayout>
