@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">punto5</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+<string-array name="ciudades">
+    <item>Armenia</item>
+    <item>Barranquilla</item>
+    <item>Bogotá</item>
+    <item>Cali</item>
+    <item>Cartagena</item>
+    <item>Leticia</item>
+    <item>Manizales</item>
+    <item>Medellín</item>
+    <item>Neiva</item>
+    <item>Pereira</item>
+    <item>Popayam</item>
+    <item>Rionegro</item>
+    <item>Sogamoso</item>
+    <item>V/cio</item>
+    <item>Yopal</item>
+</string-array>
+</resources>
