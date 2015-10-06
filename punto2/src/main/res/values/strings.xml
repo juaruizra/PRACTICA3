@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">punto 2</string>
+
+    <string name="quiz">Quices</string>
+    <string name="expo">Exposiciones</string>
+    <string name="plab">Prácticas</string>
+    <string name="pfinal">Proyecto final</string>
+    <string name="bcalcular">Calcular</string>
+    <string name="result">Nota final</string>
+    <string name="cadena">Nota final</string>
+    <string name="cero">0.0</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
